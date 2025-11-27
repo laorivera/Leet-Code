@@ -1,24 +1,13 @@
 
 #include<iostream>
 
-
-class Solution {
-public:
-    bool isPalindrome(int x) {
-    long long int y = 0;
-        for(int i = x; i >= 1; i = i / 10){
-            int b = i % 10;
-            y = y*10 + b;
-        }
-        if (y == x){
-            return true;
-        }
-    return false;       
-    }
-};
-
 int main(){
 
-  std::cout<<"hello world"<<std::endl;
+  std::cout<<"welcome stranger"<<std::endl;
+
+  std::cout<<"here are my leetcode problems i try to do them without tools or ia"<<std::endl;
+
+  std::cout<<""<<std::endl;
+
   return 0;
 }
